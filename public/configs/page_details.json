@@ -27,17 +27,17 @@
     "company": "Greensea IQ",
     "startDate": "Oct 2021",
     "endDate": "Feb 2024",
-    "description": "I expanded Greensea's autonomy stack for a fleet of underwater robotics. This entailed localization, mapping, and obstacle avoidance for both holonomic and nonholonomic vehicles. Some projects I contributed towards are the following: EverClean (ship hull cleaning service), OPENSEA (hardware agnostic software for underwater robotics), Bayonet AUGV (sea floor surveying), and EOD (Explosive Ordnance Neutralization).",
-    "skills": ["C++", "Python", "LCM", "OpenCV", "PCL", "Git", "Docker", "Data Analysis"],
+    "description": "Core developer for the OPENSEA autonomy platform, deploying mission-critical GNC software to commercial underwater fleets. Specifically, I engineered solutions for SLAM-based navigation, sensor fusion, and obstacle avoidance on the 'EverClean' hull-cleaning robots, 'Bayonet' amphibious crawlers.",
+    "skills": ["C++", "Python", "SLAM", "GNC", "Kalman Filter", "CMake", "Docker", "Sensor Fusion"],
     "mainLink": "https://greenseaiq.com/",
-    "sideLinks": [{"label":"EOD Demo", "link":"https://www.youtube.com/watch?v=XmifeADVPSM&ab_channel=GreenseaIQ"}]
+    "sideLinks": [{"label":"Watch EOD Demo", "link":"https://www.youtube.com/watch?v=XmifeADVPSM&ab_channel=GreenseaIQ"}]
   }, { 
     "position": "Research Engineer",
     "company": "Bush Combat Development Complex",
     "startDate": "May 2020",
     "endDate": "Sep 2021",
-    "description": "The main problem we were solving was related to multi-agent systems where we needed decisive coordination between multiple ground and air vehicles. I concentrated on sensor processing, mapping, and navigation for off-road ground automobiles.",
-    "skills": ["C++", "Python", "ROS", "OpenCV", "PCL", "Git", "Docker"],
+    "description": "R&D focus on multi-agent coordination between autonomous air and ground vehicles in unstructured, off-road environments. I engineered real-time perception pipelines (LiDAR to 2D Costmap) and developed local planners for obstacle avoidance.",
+    "skills": ["C++", "Python", "ROS", "Perception", "Point Clouds", "OpenCV", "Linux", "DevOps"],
     "mainLink": "https://bcdc.tamus.edu/core-competencies/coordinated-air-ground-vehicle-maneuvering/"
   },
   { 
@@ -45,10 +45,9 @@
     "company": "Connected Autonomous Safe Technologies",
     "startDate": "Aug 2018",
     "endDate": "May 2020",
-    "description": "I designed and implemented a data-driven nonlinear longitudinal and lateral controller for ground vehicles.",
-    "skills": ["Python", "ROS"],
+    "description": "Designed and validated data-driven, nonlinear control architectures for a drive-by-wire UTV. I developed system identification models to characterize vehicle dynamics and implemented Sliding Mode Controllers for precise off-road path tracking.",
+    "skills": ["Python", "ROS", "Control Theory", "System Identification"],
     "mainLink": "https://cast.tamu.edu/"
-    
   },  { 
     "position": "Controls Team Lead",
     "company": "SAE AutoDrive Challenge",
@@ -60,10 +59,10 @@
     "sideLinks": [{"label":"2nd Place Article", "link":"https://tees.tamu.edu/news/2018/05/texas-am-engineering-autodrive-challenge-team-takes-second-overall-in-first-competition-milestone.html"}]
 
   }],
-  "projects":  [ { 
+  "projects":  [ {
     "name": "GPT - The Office",
     "image": "https://raw.githubusercontent.com/shassen14/gpt_the_office/refs/heads/main/docs/main/generation.gif",
-    "description": "A Generative Pretrained Model (GPT) using a similar decoder architecture from \"Attention is All You Need\" utilizes scripts from \"The Office\" to create scripts similar to the show. There are two tokenization method: \bcharacter-wise tokens and GPT-2 tokens. While this was tested and trained on a singular GPU, I hope to move this project forward with multi-GPU processing.",
+    "description": "A Generative Pretrained Model (GPT) using a decoder architecture similar to \"Attention is All You Need,\" trained on scripts from \"The Office\" to generate dialogue in the show's style. Implements custom character-wise and GPT-2 tokenization methods. Originally trained on a single GPU, with future plans to scale to multi-GPU distributed training.",
     "skills": ["Python", "Pytorch", "Numpy", "LLM"],
     "mainLink": "https://github.com/shassen14/gpt_the_office"
   }, { 
